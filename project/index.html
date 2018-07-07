@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <title></title>
+  </head>
+  <body>
+  <nav>
+    <i class="fab fa-drupal"></i>
+    <i class="fas fa-user-alt"></i>
+    <i class="fas fa-search"></i>
+    <button id="lookUp" type="button" name="button">Look Up</button>
+    <input id="search" type="search" name="seactch"  placeholder="Search Anime"value="">
+  </nav>
+
+    <section id="rightSide">
+      <i class="fas fa-chevron-circle-right"></i>
+    </section>
+
+    <section id="leftSide">
+      <i class="fas fa-chevron-circle-left"></i>
+    </section>
+
+    <section id="contain">
+
+    <section id="top"></section>
+
+    <section id="middleLeft"></section>
+
+    <section id="middleRight"></section>
+
+    <section id="bottom"></section>
+
+  </section>
+
+  <section id="comment">
+    <h2>Add a message</h2>
+
+  <form action="/messages" method="POST">
+    <input type="text" placeholder="name" name="name">
+    <input type="text" placeholder="message" name="msg">
+    <button type="submit">Submit</button>
+  </form>
+  <li></li>
+
+  </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
